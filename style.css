@@ -90,3 +90,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     background-color: white;
     color: #3A0CA3;
 }
+
+.blob{
+    padding: 10px;
+    width: 700px;
+}
