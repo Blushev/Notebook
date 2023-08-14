@@ -66,19 +66,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     line-height: 5.5em;
 }
 
-.header a{
-
-}
-
-.control{
-    text-align: center;
-    padding: .7em 1.5em
-}
-
-.started{
-    color: white;
-    font-size: 20px;
+.control button{
     font-family: 'Nunito', sans-serif;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+
+}
+
+.startedBut{
     background-color: #F72585;
-    border-radius: 30%;
+    color: white;
+}
+
+.learnBut{
+    background-color: white;
+    color: #3A0CA3;
 }
