@@ -95,3 +95,46 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     padding: 10px;
     width: 900px;
 }
+
+.experience{
+    background-color: #F72585;
+    height: 700px;
+}
+
+.title h1{
+    font-size: 60px;
+    color: black;
+    font-family: 'Climate Crisis', cursive;
+    padding-bottom: 1.2em;
+}
+
+.title p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: white;
+    width: 600px;
+}
+
+.experience__content{
+    padding: 100px 0 0 100px;
+}
+
+.experience span{
+    font-size: 60px;
+    color: black;
+    font-family: 'Climate Crisis', cursive;
+    padding-bottom: 1.2em;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 50px 0;
+    width: 800px;
+}
+
+.subtitle p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: white;
+}
